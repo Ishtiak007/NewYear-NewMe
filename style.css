@@ -133,3 +133,31 @@ section {
 .plan {
   text-align: center;
 }
+/* watch section */
+.watch-section {
+  width: 80%;
+  height: 280px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("./images/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.watch-heading {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.watch-content {
+  margin-left: 65px;
+}
+.call-btn {
+  background: white;
+  color: #f15b22;
+}
