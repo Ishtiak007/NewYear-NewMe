@@ -161,3 +161,69 @@ section {
   background: white;
   color: #f15b22;
 }
+/* footer section starts */
+.footer {
+  height: 560px;
+  width: 100%;
+  background: #151414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.left-div {
+  margin-left: 230px;
+}
+.right-div {
+  margin-right: 230px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.footer-desc {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-email-phone {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 9px;
+}
+.right-footer-heading {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+input {
+  width: 325px;
+  height: 50px;
+  display: block;
+  background: transparent;
+  border: none;
+  outline: 1px solid #fff;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  padding: 12px 20px;
+}
+input::placeholder {
+  color: #f3f3f3;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+.social {
+  margin: 20px 5px;
+}
