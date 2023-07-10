@@ -93,3 +93,43 @@ section {
   flex-shrink: 0;
   color: #16d887;
 }
+/* my plan section */
+.plan-title h1 {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.my-plan-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+}
+.plan-heading {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+.plan-desc {
+  color: #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.plan {
+  text-align: center;
+}
